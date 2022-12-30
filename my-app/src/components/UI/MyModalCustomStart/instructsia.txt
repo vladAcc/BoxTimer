@@ -1,0 +1,3 @@
+1) facut cnopca
+2) de facut state
+3) de transmis prin props setState state in MymodalCustom

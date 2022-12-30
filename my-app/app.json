@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Boxing Timer",
+    "slug": "boxingtimer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+   "splash": {
+      //"image": "./assets/icon.png",
+     // "resizeMode": "contain",
+      "backgroundColor": "#202528"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#202528"
+      },
+      "package": "com.vladRazrab22.BoxingTimer",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "afdc77b0-03aa-4441-af2f-8bfedccb53a5"
+      }
+    }
+  }
+}
